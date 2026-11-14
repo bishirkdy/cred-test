@@ -1,0 +1,56 @@
+# Build output
+**/bin/
+**/obj/
+Debug/
+Release/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Test results
+TestResults/
+**/TestResults/
+*.trx
+coverage/
+coverage.cobertura.xml
+coverage.opencover.xml
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Local secrets
+.env
+.env.*
+!.env.example
+**/secrets.json
+
+# Local configuration overrides
+**/appsettings.Development.local.json
+
+# OS files
+.DS_Store
+Thumbs.db
